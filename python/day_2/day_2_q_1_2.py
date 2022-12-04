@@ -1,4 +1,4 @@
-with open(r'python\day_2\day_2_q_1_2_input.txt', 'r') as file:
+with open(r'python/day_2/day_2_q_1_2_input.txt', 'r') as file:
     lines = file.read().splitlines()
 
 ELF_ROCK = 'A'

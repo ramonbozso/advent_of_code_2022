@@ -1,4 +1,4 @@
-with open(r'python\day_3\day_3_q_1_2_input.txt', 'r') as file:
+with open(r'python/day_3/day_3_q_1_2_input.txt', 'r') as file:
     lines = file.read().splitlines()
 
 # lowecase letters: a-z 1-26, ASCII a-z 97-122, diff -> 96

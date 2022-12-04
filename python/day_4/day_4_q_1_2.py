@@ -1,4 +1,4 @@
-with open(r'python\day_4\day_4_q_1_2_input.txt', 'r') as file:
+with open(r'python/day_4/day_4_q_1_2_input.txt', 'r') as file:
     lines = file.read().splitlines()
 
 summa = 0
@@ -13,9 +13,9 @@ for line in lines:
     common_areas = set(range_1).intersection(range_2)
 
     # fully overlap
-    if len(common_areas) == len(range_1) or len(common_areas) == len(range_2):
-        # summa += 1
-        pass
+    # if len(common_areas) == len(range_1) or len(common_areas) == len(range_2):
+    #     summa += 1
+    #     pass
 
     # partly overlap
     if common_areas:
