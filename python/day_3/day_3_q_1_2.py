@@ -9,18 +9,18 @@ diff_for_upper = 38
 summa = 0
 
 # look for common item
-for line in lines:
-    first_half = line[:len(line) // 2]
-    second_half = line[len(line) // 2:]
+# for line in lines:
+#     first_half = line[:len(line) // 2]
+#     second_half = line[len(line) // 2:]
 
-    common_item = list(set(first_half).intersection(set(second_half)))[0]
+#     common_item = list(set(first_half).intersection(set(second_half)))[0]
 
-    if common_item.islower():
-        prio = ord(common_item) - diff_for_lower
-    else:
-        prio = ord(common_item) - diff_for_upper
+#     if common_item.islower():
+#         prio = ord(common_item) - diff_for_lower
+#     else:
+#         prio = ord(common_item) - diff_for_upper
 
-    # summa += prio
+#     summa += prio
 
 # common item in bags gropup by 3
 for every_third_index in range(0, len(lines), 3):

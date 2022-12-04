@@ -38,10 +38,10 @@ FIRST_RULES = {
 summa = 0
 
 # q1
-for line in lines:
-    elf_choice, my_choice = line.split(' ')
-    roud_point = FIRST_RULES.get(elf_choice).get(my_choice)
-    # summa += roud_point
+# for line in lines:
+#     elf_choice, my_choice = line.split(' ')
+#     roud_point = FIRST_RULES.get(elf_choice).get(my_choice)
+#     summa += roud_point
 
 CHOOSE_TO_LOSE = 'X'
 CHOOSE_TO_DRAW = 'Y'

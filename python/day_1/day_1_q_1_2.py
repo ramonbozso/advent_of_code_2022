@@ -9,9 +9,11 @@ for line in lines:
     if line == '':
         if current_calories >= previous_max:
             previous_max = current_calories
+
         if any(current_calories > elem for elem in top_three):
             top_three = sorted(top_three, reverse=True)
             top_three[2] = current_calories
+
         current_calories = 0
     else:
         current_calories = current_calories + int(line)
